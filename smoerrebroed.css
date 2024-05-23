@@ -1,3 +1,12 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 /***** menu *****/
 .logo {
   font-family: league gothic;
@@ -161,4 +170,23 @@ p {
 h2 {
   font-family: inter;
   text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 6%;
+  gap: 10%;
+}
+
+.footer {
+  display: flex;
+  font-family: inter;
+  justify-content: space-around;
+  text-align: left;
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
 }
